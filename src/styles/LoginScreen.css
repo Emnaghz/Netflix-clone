@@ -15,6 +15,7 @@
   color: white;
   background-color: #e50914;
   cursor: pointer;
+  border: none;
 }
 
 .loginScreen_logo {

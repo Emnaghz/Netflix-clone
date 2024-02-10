@@ -29,7 +29,7 @@ function LoginScreen() {
               Ready to watch? Enter your email to create or restart your
               membership.
             </h3>
-            <div className="loginSceen_input">
+            {/* <div className="loginSceen_input">
               <form>
                 <input type="email" placeholder="Email A dress" />
                 <button
@@ -39,7 +39,7 @@ function LoginScreen() {
                   GET STARTED
                 </button>
               </form>
-            </div>
+            </div> */}
           </>
         )}
       </div>

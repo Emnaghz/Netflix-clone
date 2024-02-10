@@ -1,5 +1,5 @@
 import React, { useRef } from "react";
-import "../styles/signUpScreen.css";
+import "../styles/SignUpScreen.css";
 import { auth } from "../firebase.js";
 import {
   createUserWithEmailAndPassword,
@@ -19,7 +19,7 @@ function SignUpScreen() {
     )
       .then((userCredential) => {
         // Signed up
-        console.log(userCredential.user);
+        //console.log(userCredential.user);
         //const user = userCredential.user;
       })
       .catch((error) => {
@@ -54,7 +54,7 @@ function SignUpScreen() {
         <h4>
           <span className="signUpScreen_gray">New to Netflix? </span>
           <span className="signUpScreen_link" onClick={register}>
-            Sign up now.{" "}
+            Sign up now.
           </span>
         </h4>
       </form>

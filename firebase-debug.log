@@ -1,0 +1,14 @@
+[debug] [2024-02-10T11:56:59.152Z] ----------------------------------------------------------------------
+[debug] [2024-02-10T11:56:59.154Z] Command:       /home/emna/.nvm/versions/node/v18.17.1/bin/node /usr/local/bin/firebase deploy --only hosting
+[debug] [2024-02-10T11:56:59.154Z] CLI Version:   13.0.3
+[debug] [2024-02-10T11:56:59.154Z] Platform:      linux
+[debug] [2024-02-10T11:56:59.154Z] Node Version:  v18.17.1
+[debug] [2024-02-10T11:56:59.155Z] Time:          Sat Feb 10 2024 12:56:59 GMT+0100 (Central European Standard Time)
+[debug] [2024-02-10T11:56:59.155Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-02-10T11:56:59.209Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-02-10T11:56:59.209Z] > authorizing via signed-in user (emnaghzaiel176@gmail.com)
+[debug] [2024-02-10T11:56:59.209Z] [iam] checking project netflix-clone-8eb41 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-02-10T11:56:59.211Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-8eb41:testIamPermissions [none]
+[debug] [2024-02-10T11:56:59.211Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-8eb41:testIamPermissions x-goog-quota-user=projects/netflix-clone-8eb41
+[debug] [2024-02-10T11:56:59.211Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/netflix-clone-8eb41:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
